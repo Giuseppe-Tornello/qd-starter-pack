@@ -7,13 +7,11 @@
 # {
 #   string textInput;
 #
-#   cout << "Enter a famous name+surname, ex. BarackObama " << endl;
+#   cout << "Enter a famous name+surname, ex. BarackObama: " << endl;
 #   cin >> textInput;
 #
 #   if (textInput == "BarackObama")
-#   {
-#     cout << "44th president of the United States" << endl;
-#   }
+#   { #     cout << "44th president of the United States" << endl; #   }
 #   else if (textInput == "SandroPertini")
 #   {
 #     cout << "Former President of the Italian Republic" << endl;
@@ -41,3 +39,4 @@
 #
 #   return 0;
 # }
+text_input = string(input("Enter a famous name+surname, ex. BarackObama: "))
