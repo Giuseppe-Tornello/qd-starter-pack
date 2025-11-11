@@ -49,3 +49,11 @@
 #
 #   return 0;
 # }
+try:
+    week = int(input('Enter week number(1-7): '))
+except ValueError:
+    print("Not a number")
+
+weeks = ["Monday","Tuesday","Wensday","Thursday","sday","Thursday"]
+if week <= 7 and week >= 1:
+    print(weeks[week-1])
