@@ -4,7 +4,7 @@
 #   Output:
 #   The random number is: 4
 #
-from random import random
+from random import randint
 RAND_RANGE = 986234
 
 rand_number = randint(0,RAND_RANGE)
