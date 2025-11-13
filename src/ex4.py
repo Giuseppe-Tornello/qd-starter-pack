@@ -54,3 +54,17 @@
 #
 #   return 0;
 # }
+month_day = int(input("Enter month number(1-12): "))
+
+months_31 = [1,3,5,7,8,10,12]
+months_30 = [11,4,6,9]
+months_28 = 2
+
+if month_day in months_31:
+    print("31 days")
+elif month_day in months_30:
+    print("30 days")
+elif month_day == months_28:
+    print("28 days")
+else:
+    print("Invalid input! Please enter month number between 1-12")
