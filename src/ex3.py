@@ -39,7 +39,7 @@
 #
 #   return 0;
 # }
-def print_output(text_input) -> null:
+def print_output(text_input) -> None:
     match text_input:
         case "BarackObama":
             print("44th president of the United States")
@@ -56,5 +56,5 @@ def print_output(text_input) -> null:
         case _:
             print("Invalid input! Please enter a good name!")
 
-text_input = str(input("Enter a famous name+surname, ex. BarackObama: "))
-print_output(text_input)
+kb_input = str(input("Enter a famous name+surname, ex. BarackObama: "))
+print_output(kb_input)
