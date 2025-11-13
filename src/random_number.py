@@ -4,8 +4,8 @@
 #   Output:
 #   The random number is: 4
 #
-import random
+from random import random
 RAND_RANGE = 986234
 
-rand_number = random.randint(0,RAND_RANGE)
+rand_number = randint(0,RAND_RANGE)
 print(rand_number)
