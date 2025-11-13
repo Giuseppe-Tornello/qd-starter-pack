@@ -39,10 +39,6 @@
 #
 #   return 0;
 # }
-text_input = string(input("Enter a famous name+surname, ex. BarackObama: "))
-
-print_output(text_input)
-
 def print_output(text_input) -> null:
     match text_input:
         case "BarackObama":
@@ -59,3 +55,6 @@ def print_output(text_input) -> null:
             print("Creator of C")
         case _:
             print("Invalid input! Please enter a good name!")
+
+text_input = str(input("Enter a famous name+surname, ex. BarackObama: "))
+print_output(text_input)
