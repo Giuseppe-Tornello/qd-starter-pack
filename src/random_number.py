@@ -7,9 +7,11 @@
 from random import randint
 RAND_RANGE = 986234
 
+
 def main():
     rand_number = randint(0,RAND_RANGE)
     print(rand_number)
+
 
 if __name__ == "__main__":
     main()
