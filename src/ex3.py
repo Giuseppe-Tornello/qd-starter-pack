@@ -56,5 +56,11 @@ def print_output(text_input) -> None:
         case _:
             print("Invalid input! Please enter a good name!")
 
-kb_input = str(input("Enter a famous name+surname, ex. BarackObama: "))
-print_output(kb_input)
+
+def main():
+    kb_input = str(input("Enter a famous name+surname, ex. BarackObama: "))
+    print_output(kb_input)
+
+
+if __name__ == "__main__":
+    main()
