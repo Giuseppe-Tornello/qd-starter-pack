@@ -69,5 +69,11 @@ def print_month_days(month_number: int) -> None:
     else:
         print("Invalid input! Please enter month number between 1-12")
 
-month = int(input("Enter month number(1-12): "))
-print_month_days(month)
+
+def main():
+    month = int(input("Enter month number(1-12): "))
+    print_month_days(month)
+
+
+if __name__ == "__main__":
+    main()
