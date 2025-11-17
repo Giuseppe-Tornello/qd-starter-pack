@@ -39,7 +39,7 @@
 #
 #   return 0;
 # }
-def print_output(text_input) -> None:
+def print_output(text_input: str) -> None:
     match text_input:
         case "BarackObama":
             print("44th president of the United States")
