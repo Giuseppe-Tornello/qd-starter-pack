@@ -55,7 +55,7 @@ except ValueError:
     print("Invalid input! Not a number")
 
 weeks = ["Monday","Tuesday","Wensday","Thursday","Friday","Saturday","Sunday"]
-if week <= 7 and week >= 1:
+if 1 <= week <= 7:
     print(weeks[week-1])
 else:
     print("Invalid input! Please enter week number between 1-7.")
